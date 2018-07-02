@@ -1,0 +1,95 @@
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: "montserrat", "Avenir";
+}
+
+.square {
+	width: 30%;
+	background-color: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 10%;
+	transition: background 0.6s;
+	/* transition won't work in all browsers, thus add:*/
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s; 
+}
+
+#container {
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+h1 {
+	text-align: center;
+	line-height: 1.1;
+	font-weight: normal;
+	color: white;
+	margin: 0%;
+	text-transform: uppercase;
+	padding: 20px
+}
+
+h3 {
+	text-align: center;
+	font-weight: normal;
+	color: white;
+	margin: 0%;
+	text-transform: uppercase;
+}
+
+#colorDisplay {
+	margin: 0;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 200%;
+	line-height: 1.1;
+}
+
+#topDisplay {
+	background-color: steelblue;
+	height: 30px;
+	text-align: center;
+	color: white;
+	padding-bottom: 10%;
+}
+
+#barDisplay {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+	color: steelblue;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+.selected {
+	background: steelblue;
+	color: white;
+}
+
+button {
+	border: none;
+	background: none;
+	outline: none;
+	color: steelblue;
+	text-transform: uppercase;
+	font-weight: bolder;
+	height: 100%;
+	/* transition: apply styling regarding how to animate selected element */
+	transition: all 0.3s;
+	/* two arguments 1: what to transition 2: time delay */
+	/* transition won't work in all browsers, thus add:*/
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s; 
+}	
+
+button:hover {
+	background: steelblue;
+	color: white;
+}
